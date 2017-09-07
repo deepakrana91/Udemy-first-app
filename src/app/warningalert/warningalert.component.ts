@@ -5,8 +5,10 @@ import { Component } from '@angular/core';
     selector: 'app-warning',
     templateUrl:'./warningalert.component.html',
     styles:[`
-    h3 {
-        color:red;
+    p { 
+        padding:20px;
+        background-color:mistyrose;
+        border: 1px solid red;
         }
     `]
 })
